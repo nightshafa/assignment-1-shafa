@@ -1,0 +1,227 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+/*############### first section start ##################*/
+.first-section .first-div{
+    margin: 5%;
+    display: flex;
+}
+.first-section .mission{
+    color: #ee5db6;
+    line-height: 50%;
+}
+.first-section h1{
+    line-height: 35%;
+}
+.first-section-img .first-img{
+    width: 50%;
+    height: 50%;
+}
+.div1{
+    width: 60%;
+    margin-left: 2%;
+}
+.div1 .border-left{
+    padding-left: 2%;
+    border-left: 8px solid;
+    border-image: linear-gradient(#fc3444 55%, #e7d913);
+    border-image-slice: 1;    
+}
+.div2{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.div2 .first-img{
+    width: 70%;
+    height: 70%;
+}
+.explore_a{
+    padding: 10px 20px;
+    background-image: linear-gradient(#fc4d78, #fa809b);
+    color: white;
+    border-radius: 8px;
+}
+/*############### first section end ##################*/
+
+
+
+/*############### second section start ##################*/
+h1{
+    text-align: center;
+}
+span{
+    color: #bee482;
+}
+.boxes-div{
+    display: flex;
+    margin-left: 11%;
+    margin-bottom: 100px;
+    line-height: 70%;
+}
+.boxes-div p{
+    font-size: 12px;
+}
+.second-section .box1{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #faf5f5;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: #f5cee6;
+}
+.second-section .box2{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #faf5f5;
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: 3%;
+    background-color: #ced6f7;
+}
+.second-section .box3{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #faf5f5;
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: 3%;
+    background-color: #f0f5d8;
+}
+img{
+    height: 40%;
+    width: 40%;
+}
+/*############### second section end ##################*/
+
+
+
+/*############### third-section start ##################*/
+.third-section{
+    display: flex;
+    margin: 3%;
+    margin-right: 5%;
+}
+.third-img{
+    height: 80%;
+    width: 80%;
+    margin-left: 15%;  
+}
+.background-img1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+    background-position: left top;
+}
+.background-writ1{
+    margin-left: 4%;
+}
+
+/*############### third-section end ##################*/
+
+
+
+
+/*############### fourth-section end ##################*/
+.fourth-section{
+    display: flex;
+    margin: 3%;
+    margin-left: 5%;
+    margin-bottom: 80px;
+}
+.fourth-img{
+    height: 80%;
+    width: 80%;
+}
+.background-img2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+    background-position: right bottom;
+}
+/* .background-writ2{
+    margin-right: 1%;
+} */
+/*############### fourth-section end ##################*/
+
+
+
+/*############### fifth-section start ##################*/
+.fifth-section{
+    display: flex;
+    margin: 3%;
+    margin-bottom: 150px;
+    margin-left: 10%;
+}
+h1{
+    line-height: 25%;
+    font-size: 50px;
+    text-align: left;
+}
+.background-imges .fifth-img{
+    height: 120%;
+    width: 400%;
+    margin-left: 200%;
+    border-radius: 20px;
+    border: 3px solid #f05858;  
+}
+.background-imges{
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+    background-position: right top;
+    padding-left: 10%;
+}
+/* .background-imges{
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px 100px;
+    background-position: right top;
+    padding-left: 5%;
+} */
+.background-writ{
+    margin-left: 10%;
+    text-align: left;
+    align-items: 0;
+    padding-left: 20%;
+    padding-right: 0;
+
+}
+.explore_b{
+    padding: 10px 20px;
+    background-image: linear-gradient(#c0298a, #f781cd);
+    color: white;
+    border-radius: 8px;
+}
+.fifth-span{
+    color: #f05858;
+}
+/*############### fifth-section end ##################*/
+
+footer .footdiv{
+    padding-top: 35px;
+    height: 150px;
+    background-color: #0e0b0e;
+    text-align: center;
+    color: #faf5f5;
+}
+
+footer h2{
+    font-size: 30px; 
+}
+
+footer p{
+    font-size: 12px;
+}
